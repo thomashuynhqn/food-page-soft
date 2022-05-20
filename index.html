@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Page</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/restaurant.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="stylesheet" href="./css/service.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/download.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div class="headerLeft">
+        <nav class="headerLeft__navbar">
+          <h1>expice</h1>
+          <div class="headerLeft__navbar--menu">
+            <ul>
+              <li><a href="#">Menu One</a></li>
+              <li><a href="#">Menu Two</a></li>
+              <li><a href="#">Menu Three</a></li>
+              <li><a href="#">Menu Four</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="headerContainer">
+          <div class="headerContainer__title">
+            <span>Food</span>
+            <h1>Discover Restaurant & Delicious Food</h1>
+            <div class="headerContainer__title--input">
+              <input type="text" placeholder="Search Restaurant, Food" />
+              <input type="submit" value="GO" />
+            </div>
+          </div>
+          <div class="headerContainer__bgImg">
+            <img
+              class="headerContainer__bgImg--one"
+              src="./imgs/Make Vector BG.svg"
+              alt=""
+            />
+            <img
+              class="headerContainer__bgImg--two"
+              src="./imgs/Make Vector BG.svg"
+              alt=""
+            />
+          </div>
+          <div class="headerContainer__mark">
+            <img src="./imgs/Vector.png" alt="" />
+            <p>Rajshahi</p>
+          </div>
+        </div>
+      </div>
+      <div class="headerRight">
+        <button class="headerRight__btn" onclick="Dropdown()">
+          <img src="./imgs/Menu 1.png" alt="" />
+        </button>
+        <div class="headerRight__navbar--menu" id="menu">
+          <ul>
+            <li>Menu One</li>
+            <li>Menu Two</li>
+            <li>Menu Three</li>
+            <li>Menu Four</li>
+          </ul>
+        </div>
+        <div class="headerRight__user">
+          <img src="./imgs/User icon.png" alt="" />
+          <p>User</p>
+          <span>&#8250;</span>
+        </div>
+        <div class="headerRight__img">
+          <img
+            class="headerRight__img--img1"
+            src="./imgs/—Pngtree—lettuce_1175257 1.png"
+            alt=""
+          />
+          <img
+            class="headerRight__img--img2"
+            src="./imgs/—Pngtree—delicious food_568171 1.png"
+            alt=""
+          />
+        </div>
+        <div class="headerRight__arrow">
+          <button>
+            <img
+              class="headerRight__arrow--left"
+              src="./imgs/Left carousel.png"
+            />
+          </button>
+          <button>
+            <img
+              class="headerRight__arrow--right"
+              src="./imgs/Right carousel.png"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- restaurant -->
+    <div class="restaurant">
+      <div class="restaurant__title">
+        <div class="restaurant__title--left">
+          <h2>Some top restaurant for dining in or take away!</h2>
+        </div>
+        <div class="restaurant__title--right">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+            adipiscing cursus auctor eget sed phasellus senectus. Ut tellus
+            donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat
+            metus id amet, nam hac magna accumsan. Nascetur ac tortor purus
+            ultrices morbi tellus. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Est, adipiscing cursus auctor eget sed.
+          </p>
+        </div>
+      </div>
+      <div class="restaurant__container">
+        <div class="restaurant__container--item">
+          <img class="bg-top" src="./imgs/Make Vector BG.png" alt="" />
+          <img class="desc-img" src="./imgs/Rectangle 7 (1).png" alt="" />
+          <div class="desc">
+            <h3>Fire Water</h3>
+            <p>
+              we are all about we are all about to the fullest and all content
+              dining out or in!dining out or in!
+            </p>
+            <div class="mark">
+              <img src="./imgs/Vector.png" alt="" />
+              <p>New Market</p>
+            </div>
+          </div>
+          <button class="btn-book">Book Now</button>
+        </div>
+        <div class="restaurant__container--item">
+          <img class="desc-img" src="./imgs/Rectangle 7.png" alt="" />
+          <img class="bg-bot" src="./imgs/Make Vector BG.svg" alt="" />
+          <div class="desc">
+            <h3>The Wonton</h3>
+            <p>
+              we are all about we are all about to the fullest and all content
+              dining out or in!dining out or in!
+            </p>
+            <div class="mark">
+              <img src="./imgs/Vector.png" alt="" />
+              <p>Saheb Bazar</p>
+            </div>
+          </div>
+          <button class="btn-book">Book Now</button>
+        </div>
+        <div class="restaurant__container--item" id="three">
+          <div class="arrow">
+            <img class="arrow__line" src="./imgs/Line 1.png" alt="" />
+            <button class="arrow--right">
+              <img src="./imgs/Chevron Right.png" alt="" />
+            </button>
+          </div>
+          <p>See More</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- search -->
+    <div class="search">
+      <img class="img__left" src="./imgs/—Pngtree—lettuce_1175257 2.png" />
+      <img class="img__right" src="./imgs/5a1c7e70ca3fe7 1.png" alt="" />
+      <img class="img__right1" src="./imgs/5a1c7e70ca3fe7 2.png" alt="" />
+      <div class="search__container">
+        <img
+          class="search__container--bg-top"
+          src="./imgs/Make Vector BG.png"
+          alt=""
+        />
+        <img
+          class="search__container--bg-bot"
+          src="./imgs/Make Vector BG.png"
+          alt=""
+        />
+        <img
+          class="search__container--bg-bot1"
+          src="./imgs/Make Vector BG.png"
+          alt=""
+        />
+        <span></span>
+        <div class="search__container--title">
+          <h1>advance booking</h1>
+        </div>
+        <div class="search__container--input">
+          <input type="text" placeholder="search restrurent" />
+          <input type="submit" placeholder="search restrurent" value="GO" />
+        </div>
+        <div class="search__container--dateTime">
+          <div class="dateWrapper">
+            <div>Date</div>
+            <img src="./imgs/Vector 1.png" alt="" />
+            <p>23-09-2020</p>
+          </div>
+          <div class="dateWrapper">
+            <div>Time</div>
+            <img src="./imgs/Vector 1.png" alt="" />
+            <p>5.00 PM</p>
+          </div>
+          <div class="dateWrapper">
+            <div>Guests</div>
+            <img src="./imgs/Vector 1.png" alt="" />
+            <p>3 People</p>
+          </div>
+          <!-- <div class="dateWrapper">div</div>
+          <div class="dateWrapper">p</div> -->
+        </div>
+      </div>
+    </div>
+    <!-- service -->
+    <div class="service">
+      <div class="service__title">
+        <h2>Our Services</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui,
+          repellendus suscipit animi consequatur voluptatibus earum eum nihil
+          deleniti vel dignissimos ea est laudantium cum consectetur explicabo
+          commodi voluptates aliquam molestias.
+        </p>
+        <p></p>
+      </div>
+      <div class="service__container">
+        <!-- <img src="/imgs/Vector12.png" alt="" /> -->
+        <!-- <img src="/imgs/Group.png" alt="" /> -->
+        <div class="service__container--item left-top">
+          <div class="image left-top__img">
+            <img class="img-lo" src="./imgs/Vector.svg" alt="" />
+          </div>
+          <div class="title left-top__title">
+            <h2>advanced table</h2>
+            <div class="left-top__title--arrow">
+              <h2>booking</h2>
+              <img src="./imgs/Rectangle 18.png" alt="" />
+            </div>
+            <p class="desc_service">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <img class="arrow-left" src="./imgs/Arrow 1.png" alt="" />
+        </div>
+
+        <div class="service__container--item left-bot">
+          <div class="image left-bot__img">
+            <img class="img-lo" src="./imgs/Icon (1).png" alt="" />
+          </div>
+          <div class="title left-bot__title">
+            <h2>Food For Free</h2>
+            <div class="left-bot__title--arrow">
+              <img src="./imgs/Rectangle 18.png" alt="" />
+              <h2 class="arrow--title">24/7</h2>
+            </div>
+
+            <p class="desc_service">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <img class="arrow-right" src="./imgs/Arrow 2.png" alt="" />
+        </div>
+        <div class="service__container--item right">
+          <div class="right__container">
+            <img class="img-lo" src="./imgs/Icon (2).png" alt="" />
+            <div class="right__container--title">
+              <h2>free home delivery at your door steps</h2>
+              <p class="desc_service">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <img src="./imgs/Rectangle 18.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- menu -->
+    <div class="menu">
+      <div class="menu__title">
+        <h1>Explore Our Foods</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+          adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec
+          vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id
+          amet.
+        </p>
+      </div>
+      <div class="menu__container">
+        <div class="menu__container--item">
+          <img src="./imgs/Rectangle 22.png" alt="" />
+          <div class="desc-menu">
+            <div class="name">
+              <h3>Hand Sandwich</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                adipiscing.
+              </p>
+            </div>
+            <div class="price">$10.25</div>
+          </div>
+        </div>
+        <div class="menu__container--item">
+          <img src="./imgs/Rectangle 22 (1).png" alt="" />
+          <div class="desc-menu">
+            <div class="name">
+              <h3>Hand Sandwich</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                adipiscing.
+              </p>
+            </div>
+            <div class="price">$10.25</div>
+          </div>
+        </div>
+        <div class="menu__container--item">
+          <img src="./imgs/Rectangle 22 (2).png" alt="" />
+          <div class="desc-menu">
+            <div class="name">
+              <h3>Hand Sandwich</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                adipiscing.
+              </p>
+            </div>
+            <div class="price">$10.25</div>
+          </div>
+        </div>
+        <div class="menu__container--item">
+          <img src="./imgs/Rectangle 22 (3).png" alt="" />
+          <div class="desc-menu">
+            <div class="name">
+              <h3>Hand Sandwich</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                adipiscing.
+              </p>
+            </div>
+            <div class="price">$10.25</div>
+          </div>
+        </div>
+        <div class="menu__container--item">
+          <img src="./imgs/Rectangle 22 (5).png" alt="" />
+          <div class="desc-menu">
+            <div class="name">
+              <h3>Hand Sandwich</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                adipiscing.
+              </p>
+            </div>
+            <div class="price">$10.25</div>
+          </div>
+        </div>
+        <div class="menu__container--item">
+          <img src="./imgs/Rectangle 22 (4).png" alt="" />
+          <div class="desc-menu">
+            <div class="name">
+              <h3>Hand Sandwich</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                adipiscing.
+              </p>
+            </div>
+            <div class="price">$10.25</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- download -->
+    <div class="download">
+      <div class="download__left">
+        <h2>Download app for Exciting Deals</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+          adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec
+          vestibulum tristique leo bibendum in a, tincidunt.
+        </p>
+        <div class="download__left--wrapper">
+          <div class="download__left--item">
+            <img src="./imgs/chplay.png" alt="" />
+            <div class="title">
+              <span>GET IT ON</span>
+              <h3>Google Play</h3>
+            </div>
+          </div>
+          <div class="download__left--item">
+            <img src="./imgs/chplay.png" alt="" />
+            <div class="title">
+              <span>Download on the</span>
+              <h3>App Store</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="download__right">
+        <img class="download__right--bg" src="./imgs/5a1c7e70ca3fe7 1.png" />
+
+        <div class="download__right--phone">
+          <img
+            class="download__right--base"
+            src="./imgs/home-3-inner-rev-2-img-2-1 1.png"
+          />
+          <img
+            class="download__right--theme"
+            src="./imgs/Product page@2x 1.png"
+          />
+          <img
+            class="download__right--bunny"
+            src="./imgs/Rectangle 25.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <img src="./imgs/Group 86 1.png" alt="" />
+      <div class="footer__container">
+        <h1>Get notified</h1>
+        <h1>about new amazing products</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+          adipiscing cursus auctor eget sed phasellus senectus.
+        </p>
+        <div class="footer__container--input">
+          <input type="text" placeholder="E-mail" />
+          <input type="submit" value="&#8594;" />
+        </div>
+        <ul>
+          <li>Product</li>
+          <li>Company</li>
+          <li>Learn More</li>
+          <li>Get in Touch</li>
+        </ul>
+      </div>
+      <div class="info">
+        <div class="info__icon">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-behance"></i>
+        </div>
+        <p>&#169; 2020 Expice Studio</p>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
